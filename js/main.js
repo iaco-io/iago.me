@@ -19,19 +19,19 @@
 	 * -------------------------------------------------- */
 	var ssPreloader = function() {
 
-		$WIN.on('load', function() {	
+		// $WIN.on('load', function() {	
 
-			// force page scroll position to top at page refresh
-			$('html, body').animate({ scrollTop: 0 }, 'normal');
+		// 	// force page scroll position to top at page refresh
+		// 	$('html, body').animate({ scrollTop: 0 }, 'normal');
 
-	      // will first fade out the loading animation 
-	    	$("#loader").fadeOut("slow", function(){
+	 //      // will first fade out the loading animation 
+	 //    	$("#loader").fadeOut("slow", function(){
 
-	        // will fade out the whole DIV that covers the website.
-	        $("#preloader").delay(300).fadeOut("slow");
+	 //        // will fade out the whole DIV that covers the website.
+	 //        $("#preloader").delay(300).fadeOut("slow");
 
-	      }); 
-	  	});
+	 //      }); 
+	 //  	});
 	}; 
 
 
@@ -245,7 +245,7 @@
 	* ------------------------------------------------------- */
 	var ssIntroAnimation = function() {
 
-		$WIN.on('load', function() {
+		// $WIN.on('load', function() {
 		
 	     	if (!$("html").hasClass('no-cssanimations')) {
 	     		setTimeout(function(){
@@ -263,7 +263,7 @@
 					});						
 				}, 100);
 	     	} 
-		}); 
+		// }); 
 
 	};
 
@@ -340,7 +340,7 @@
 	* ------------------------------------------------------ */
 	(function ssInit() {
 
-		ssPreloader();
+		// ssPreloader();
 		ssFitVids();
 		ssMasonryFolio();
 		ssLightGallery();
