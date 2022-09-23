@@ -1699,12 +1699,12 @@ header .header-logo a {
 	position: relative;
 }
 
-#home h2 a::after{
+/* #home h2 a::after{
 	font-family: 'Font Awesome\ 5 Free';
 	vertical-align: super;
 	font-size: 8px;
 	content: "\00a0\f35d";
-}
+} */
 
 #home .gradient-overlay {
 	position: absolute;
